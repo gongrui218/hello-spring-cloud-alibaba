@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="hello-spring-cloud-alibaba-roketmq-provider" />
         <module name="hello-spring-cloud-alibaba-nacos-provider" />
         <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" />
+        <module name="hello-spring-cloud-gateway" />
         <module name="hello-spring-cloud-alibaba-nacos-consumer" />
       </profile>
     </annotationProcessing>
@@ -16,6 +18,8 @@
       <module name="hello-spring-cloud-alibaba-nacos-consumer" target="1.8" />
       <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" target="1.8" />
       <module name="hello-spring-cloud-alibaba-nacos-provider" target="1.8" />
+      <module name="hello-spring-cloud-alibaba-roketmq-provider" target="1.8" />
+      <module name="hello-spring-cloud-gateway" target="1.8" />
       <module name="spring-cloud-alibaba-dependencies" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -24,6 +28,8 @@
       <module name="hello-spring-cloud-alibaba-nacos-consumer" options="-parameters" />
       <module name="hello-spring-cloud-alibaba-nacos-consumer-feign" options="-parameters" />
       <module name="hello-spring-cloud-alibaba-nacos-provider" options="-parameters" />
+      <module name="hello-spring-cloud-alibaba-roketmq-provider" options="-parameters" />
+      <module name="hello-spring-cloud-gateway" options="-parameters" />
     </option>
   </component>
 </project>
